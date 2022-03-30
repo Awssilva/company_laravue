@@ -1,6 +1,5 @@
 @extends('layouts.app')
-<!-- CSS only -->
-+8nbTov4+1p" crossorigin="anonymous"></script>
+
 
 
 @section('content')
@@ -8,7 +7,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+                <div class="card-header">{{ __('Painel do perfil') }}</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -17,7 +16,8 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{ __('Logou corretamente') }}
+                    
                 </div>
             </div>
         </div>
